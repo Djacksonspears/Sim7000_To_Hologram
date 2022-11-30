@@ -41,7 +41,7 @@ void loop()
   
   Serial.println("SENDING DATA TO HOLOGRAM..");
   
-  //UPDATES FISH ACTIVITY EITHER WAY
+  //METHOD TO SEND TO HOLOGRAM
   SendToHologram();
 
   Serial.println("SUCCESS ON SENDING HOLOGRAM DATA..");
